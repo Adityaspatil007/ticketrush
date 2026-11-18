@@ -28,4 +28,4 @@ USER 10001:10001
 EXPOSE 8080
 
 # Run the Spring Boot application
-ENTRYPOINT ["java", "-XX:MaxRAMPercentage=70", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-XX:MaxRAMPercentage=75", "-jar", "app.jar"]
