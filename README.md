@@ -16,3 +16,14 @@ High-concurrency ticket booking platform: Spring Boot, Angular, PostgreSQL, Redi
 2]then open http://localhost:8080/actuator/health for verifying
 -We can run the backed image -> docker run --rm -p 8080:8080 ticketrush-backend
 -docker run --rm --entrypoint id ticketrush-backend then to check open [2] step.
+
+## Run everything
+POSTGRES_DB=ticketrush
+POSTGRES_USER=ticketrush
+POSTGRES_PASSWORD=root
+
+POSTGRES_DB=ticketrush
+POSTGRES_USER=ticketrush
+POSTGRES_PASSWORD=ticketrush_local_pw
+
+run -> docker compose up -d --build then check urls
